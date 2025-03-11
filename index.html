@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Splitter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Bill Splitter</h1>
+        <div id="currentDateTime"></div>
+    </header>
+    <div class="container">
+        <div class="section input-section">
+            <h2>Set Bill</h2>
+            
+            <div id="billSection">
+                <input type="number" id="billAmount" placeholder="Enter total bill (€)" min="0" step="0.01">
+                <button id="setBill">Set Bill</button>
+                <p id="billMessage"></p>
+            </div>
+
+            <div id="paymentSection" class="hidden">
+                <h3>Remaining: <span id="remainingAmount">€0.00</span></h3>
+                <input type="number" id="paidAmount" placeholder="Enter amount (€)" min="0" step="0.01">
+                <div class="person-list" id="personList"></div>
+                <button id="submitPayment">Record Payment</button>
+                <p id="errorMessage" class="error"></p>
+                <button id="resetAll">Reset All</button>
+            </div>
+        </div>
+
+        <div class="section output-section">
+            <h2>Transactions</h2>
+            <table id="transactionTable">
+                <thead>
+                    <tr>
+                        <th>Amount (€)</th>
+                        <th>People</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+
+            <h2>Final Split</h2>
+            <table id="finalTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Owes (€)</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
