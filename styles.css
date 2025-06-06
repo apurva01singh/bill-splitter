@@ -145,8 +145,13 @@ th {
 
 .delete-btn {
     background: #e74c3c;
-    padding: 4px 8px;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
     font-weight: bold;
+    line-height: 20px;
 }
 
 #undoAction,
