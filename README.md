@@ -37,7 +37,7 @@ Or use this URL [apurva01singh.github.io/bill-splitter](https://apurva01singh.gi
 5. Click "Reset All" to start a new session.
 
 ## Future Enhancements
-- **Add dynamic add and remove friend feature.**
+- **Add dynamic add/remove friend feature.**
 - **Add a Share button to share the final bill split to Splitwise.**
   - Since this project doesn't have a database, this will make it easy to maintain.
   - We will share this bill using the Splitwise API.
