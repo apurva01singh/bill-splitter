@@ -143,6 +143,17 @@ th {
     display: none;
 }
 
+.delete-btn {
+    background: #e74c3c;
+    padding: 4px 8px;
+    font-weight: bold;
+}
+
+#undoAction,
+#redoAction {
+    background: #95a5a6;
+}
+
 @media (max-width: 768px) {
     .container {
         grid-template-columns: 1fr;
