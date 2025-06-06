@@ -123,6 +123,11 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         updateFinalSplit() {
+            if (!this.state.billAmount) {
+                this.elements.finalTable.innerHTML = "";
+                return;
+            }
+
             const sharedRemaining = this.state.remainingAmount / this.state.people.length;
             this.elements.finalTable.innerHTML = this.state.people.map(person => `
                 <tr>

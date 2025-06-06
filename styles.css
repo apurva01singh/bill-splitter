@@ -139,25 +139,6 @@ th {
     margin: 5px 0;
 }
 
-.hidden {
-    display: none;
-}
-
-.delete-btn {
-    background: #e74c3c;
-    color: white;
-    border: none;
-    border-radius: 50%;
-    width: 24px;
-    height: 24px;
-    font-weight: bold;
-    line-height: 20px;
-}
-
-#undoAction,
-#redoAction {
-    background: #95a5a6;
-}
 
 @media (max-width: 768px) {
     .container {
