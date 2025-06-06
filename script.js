@@ -145,7 +145,8 @@ document.addEventListener("DOMContentLoaded", () => {
             this.elements.setBillBtn.addEventListener("click", () => this.setBill());
             this.elements.billInput.addEventListener("keypress", (event) => {
                 if (event.key === "Enter") {
-                    event.preventDefault(); // Prevent form submission if inside a form
+                    // Prevent the default Enter action so we can call setBill() immediately
+                    event.preventDefault();
                     this.setBill();
                 }
             });
