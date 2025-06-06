@@ -96,6 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
             this.elements.setBillBtn.disabled = true;
             this.elements.paymentSection.classList.remove("hidden");
             this.updateRemaining();
+            this.updateFinalSplit();
         }
 
         submitPayment() {
