@@ -9,6 +9,8 @@ We built this project because we faced problems splitting our bill in Splitwise.
 - Calculate and display the remaining balance.
 - Show transactions in a table.
 - Display final amount owed by each person.
+- Delete individual transactions.
+- Undo or redo recent changes.
 - Reset all data for a new bill.
 
 ## Technologies Used
