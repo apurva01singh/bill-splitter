@@ -25,7 +25,15 @@ We built this project because we faced problems splitting our bill in Splitwise.
    ```sh
    cd bill-splitter
    ```
-3. Open `index.html` in a browser.
+3. Install the dependencies:
+   ```sh
+   npm install
+   ```
+4. Run the test suite:
+   ```sh
+   npm test
+   ```
+5. Open `index.html` in a browser.
 
 Or use this URL [apurva01singh.github.io/bill-splitter](https://apurva01singh.github.io/bill-splitter)
 
@@ -35,6 +43,12 @@ Or use this URL [apurva01singh.github.io/bill-splitter](https://apurva01singh.gi
 3. View the remaining balance and transaction history.
 4. See the final split amounts owed by each person.
 5. Click "Reset All" to start a new session.
+
+## Running Tests
+After installing dependencies, run:
+```sh
+npm test
+```
 
 ## Future Enhancements
 - **Add dynamic add and remove friend feature.**
