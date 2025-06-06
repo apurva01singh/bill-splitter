@@ -150,12 +150,19 @@ th {
     font-weight: bold;
     width: 24px;
     height: 24px;
-    line-height: 24px;
-    padding: 4px 8px; /* merged from both sides */
-    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
     text-align: center;
     cursor: pointer;
     font-size: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease, transform 0.1s ease;
+}
+
+.delete-btn:active {
+    transform: translateY(1px);
 }
 
 
